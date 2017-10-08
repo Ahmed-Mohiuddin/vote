@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ahmed.vote.ieeev">
+
+    <ImageButton
+        android:id="@+id/ibismail"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/ismail"
+        android:layout_marginTop="77dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/ibsiraj"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/siraj"
+        android:layout_alignTop="@+id/ibismail"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:id="@+id/ibtalha"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ibismail"
+        android:layout_marginTop="35dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/talha" />
+
+    <ImageButton
+        android:id="@+id/ibwassay"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_alignStart="@+id/ibsiraj"
+        android:layout_alignTop="@+id/ibtalha"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/wassay" />
+
+    <TextView
+        android:id="@+id/tti"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif"
+        android:paddingTop="12dp"
+        android:text="IEEE Candidates"
+        android:textAlignment="center"
+        android:textColor="#420666"
+        android:textSize="30sp" />
+</RelativeLayout>

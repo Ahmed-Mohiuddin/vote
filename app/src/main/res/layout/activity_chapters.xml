@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:paddingTop="2dp"
+    tools:context="com.example.ahmed.vote.chapters">
+
+    <ImageButton
+        android:id="@+id/ibCSI"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="69dp"
+        android:layout_marginTop="72dp"
+        android:padding="2dp"
+        android:paddingLeft="2dp"
+        app:srcCompat="@drawable/csi"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:layout_below="@+id/textView7"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="65dp" />
+
+    <ImageButton
+        android:id="@+id/ibEcell"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignEnd="@+id/textView7"
+        android:layout_alignTop="@+id/ibCSI"
+        android:layout_marginLeft="22dp"
+        android:background="#F0F8FF"
+        android:maxHeight="50dp"
+        android:maxWidth="70dp"
+        android:paddingBottom="2dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="2dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/ecell" />
+
+    <ImageButton
+        android:id="@+id/ibIEEE"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/ibCSI"
+        android:layout_below="@+id/ibCSI"
+        android:layout_marginLeft="69dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="47dp"
+        android:adjustViewBounds="true"
+        android:padding="2dp"
+        android:paddingLeft="2dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/ieee" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="175dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="35dp"
+        android:padding="5dp"
+        android:text="@string/mjcet"
+        android:textAlignment="center"
+        android:textColor="#0b243b"
+        android:textSize="35sp" />
+</RelativeLayout>
